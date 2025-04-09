@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай птицу</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Угадай птицу по голосу</h1>
+
+        <div class="audio-player">
+            <audio controls src="../public/audio/blackcapped_warbler.mp3"></audio>
+        </div>
+
+        <div class="options">
+            <div class="option">
+                <img src="../public/images/blackbird.jpg" alt="Чёрный дрозд">
+                <p>Чёрный дрозд</p>
+            </div>
+
+            <div class="option">
+                <img src="../public/images/goldcrest.jpg" alt="Желтоголовый королёк">
+                <p>Желтоголовый королёк</p>
+            </div>
+
+            <div class="option" correct>
+                <img src="../public/images/blackcapped_warbler.jpg" alt="Черноголовая славка">
+                <p>Черноголовая славка</p>
+            </div>
+
+            <div class="option">
+                <img src="../public/images/jack-snipe.jpg" alt="Бекас">
+                <p>Бекас</p>
+            </div>
+        </div>
+
+        <div class="fact hidden">
+            <h3>Интересный факт о черноголовой славке:</h3>
+            <p>Эта маленькая птичка способна преодолевать до 3000 км во время миграции. Их песня - быстрая трель с
+                характерным "чек-чек" в начале.</p>
+        </div>
+
+        <a href="../birds/varakushka.html" class="next-btn">Следующая птица →</a>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
