@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай птицу - Соловей</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Угадай птицу по голосу</h1>
+        <div class="audio-player">
+            <audio controls src="../audio/solovey.mp3"></audio>
+        </div>
+        <div class="options">
+            <div class="option" correct>
+                <img src="../images/solovey.jpg" alt="Соловей">
+                <p>Соловей</p>
+            </div>
+            <div class="option">
+                <img src="../images/zhuravl.jpg" alt="Журавль">
+                <p>Журавль</p>
+            </div>
+            <div class="option">
+                <img src="../images/slava.jpg" alt="Черноголовая славка">
+                <p>Черноголовая славка</p>
+            </div>
+            <div class="option">
+                <img src="../images/varakushka.jpg" alt="Варакушка">
+                <p>Варакушка</p>
+            </div>
+        </div>
+        <div class="fact hidden">
+            <h3>Интересный факт о соловье:</h3>
+            <p>Соловьи - одни из лучших певцов среди птиц. Их песня состоит из 12-24 элементов, которые повторяются в
+                разной последовательности.</p>
+        </div>
+        <a href="../birds/zhuravl.html" class="next-btn">Следующая птица →</a>
+    </div>
+    <script src="../script.js"></script>
+</body>
+
+</html>
