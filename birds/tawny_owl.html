@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай птицу</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Угадай птицу по голосу</h1>
+
+        <div class="audio-player">
+            <audio controls src="../public/audio/tawny_owl.mp3"></audio>
+        </div>
+
+        <div class="options">
+            <div class="option">
+                <img src="../public/images/blackcapped_warbler.jpg" alt="Черноголовая славка">
+                <p>Черноголовая славка</p>
+            </div>
+
+            <div class="option" correct>
+                <img src="../public/images/tawny_owl.jpg" alt="Серая неясыть">
+                <p>Серая неясыть</p>
+            </div>
+
+            <div class="option">
+                <img src="../public/images/water_rail.JPG" alt="Водяной пастушок">
+                <p>Водяной пастушок</p>
+            </div>
+
+            <div class="option">
+                <img src="../public/images/goldcrest.jpg" alt="Желтоголовый королёк">
+                <p>Желтоголовый королёк</p>
+            </div>
+        </div>
+
+        <div class="fact hidden">
+            <h3>Интересный факт о серой неясыти:</h3>
+            <p>У них самая красивая песня из сов. Представители вида имеют небольшой размер и камуфляжное оперение.
+                Благодаря этим особенностям птицы охотятся из засады и могут поймать даже самых осторожных грызунов.
+            </p>
+        </div>
+
+        <a href="./crane.html" class="next-btn">Следующая птица →</a>
+    </div>
+    <script src="../script.js"></script>
+</body>
+
+</html>
