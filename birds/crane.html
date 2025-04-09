@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай птицу</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Угадай птицу по голосу</h1>
+
+        <div class="audio-player">
+            <audio controls src="../public/audio/crane.mp3"></audio>
+        </div>
+
+        <div class="options">
+            <div class="option">
+                <img src="../public/images/water_rail.JPG" alt="Водяной Пастушо">
+                <p>Водяной Пастушок</p>
+            </div>
+
+            <div class="option">
+                <img src="../public/images/goldeneye.jpg" alt="Журавль">
+                <p>Гоголь</p>
+            </div>
+
+            <div class="option" correct>
+                <img src="../public/images/cranes.jpg" alt="Гоголь">
+                <p>Журавль</p>
+            </div>
+
+            <div class="option">
+                <img src="../public/images/bluethroat.jpg" alt="Варакушка">
+                <p>Варакушка</p>
+            </div>
+        </div>
+
+        <div class="fact hidden">
+            <h3>Интересный факт о журавле:</h3>
+            <p>Рост самого маленького журавля — красавки — не превышает 90 см. А самый высокий — австралийский -
+                достигает в высоту 170 см. Благодаря этому виду, журавли являются самыми высокими птицами в мире,
+                способными летать. Взрослые особи линяют 1–2 раза в год, и в это время журавли очень уязвимы.</p>
+        </div>
+
+        <a href="./crane.html" class="next-btn">Следующая птица →</a>
+    </div>
+    <script src="../script.js"></script>
+</body>
+
+</html>
