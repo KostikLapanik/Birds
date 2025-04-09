@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай птицу</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Угадай птицу по голосу</h1>
+
+        <div class="audio-player">
+            <audio controls src="../public/audio/vorona.mp3"></audio>
+        </div>
+
+        <div class="options">
+            <div class="option">
+                <img src="../public/images/nightingale.jpg" alt="Соловей">
+                <p>Соловей</p>
+            </div>
+
+            <div class="option" correct>
+                <img src="../public/images/vorona.jpg" alt="Серая ворона">
+                <p>Серая ворона</p>
+            </div>
+
+            <div class="option">
+                <img src="../public/images/shrike.jpg" alt="Жулан">
+                <p>Жулан</p>
+            </div>
+
+            <div class="option">
+                <img src="../public/images/tawny_owl.jpg" alt="Серая неясыть">
+                <p>Серая неясыть</p>
+            </div>
+        </div>
+
+        <div class="fact hidden">
+            <h3>Интересный факт о серой вороне:</h3>
+            <p>Она не из числа певцов, но это самые умные птицы и в их «словарном запасе» более 200 разных звуков. Они
+                очень заботливые родители и часто нападают на людей, если те подходят близко к их слеткам.</p>
+        </div>
+
+        <a href="#" class="next-btn">Следующая птица →</a>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
