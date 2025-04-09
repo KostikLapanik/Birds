@@ -1,0 +1,97 @@
+.end-page {
+    text-align: center;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.bird-header {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.bird-header .bird-icon {
+    height: 150px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.end-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.congrats-text {
+    font-size: 1.3em;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+.fun-fact {
+    background-color: #e8f4f8;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border-left: 4px solid #3498db;
+}
+
+.fun-fact h3 {
+    color: #2980b9;
+    margin-top: 0;
+}
+
+.birds-silhouette {
+    width: 100%;
+    max-width: 300px;
+    opacity: 0.8;
+    margin: 20px auto;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.primary-btn {
+    background-color: #3498db;
+    color: white;
+    border: 2px solid #3498db;
+}
+
+.primary-btn:hover {
+    background-color: #2980b9;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: #3498db;
+    border: 2px solid #3498db;
+}
+
+.secondary-btn:hover {
+    background-color: #f8f9fa;
+}
